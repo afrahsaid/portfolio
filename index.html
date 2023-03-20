@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Afrah's Porfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/609a466063.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="header"> 
+		<div class="container">
+			<nav>
+				<img src="images/afrahdev.png" class="logo">
+				<ul id="sidemenu">
+					<li><a href="#header" class="header">Home</a> </li>
+					<li><a href="#about">About</a> </li>
+					<li><a href="#services">Services</a> </li>
+					<li><a href="#portfolio">Portfolio</a> </li>
+					<li><a href="#contact">Contact</a> </li>
+					<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="home-row">
+				<div class="header-text" >
+					<p class="first-text">Frontend Web developer</p>
+					<h1>Hi, I'am Afrah Said <br><span class="first-sub-title"> Afrah <span class="color-sub-title"> Dev</span></span></h1>
+					<h2></h2>
+					<p class="home-sub-title">Energetic web developer, passionate about solving business problems and creating interactive websites.</p>
+				</div>
+				<div class="img-container ">
+				<i class="fa-solid fa-globe img-ava"></i>
+				</div>
+				</div>  
+			</div>
+		</div>
+	</div>
+	<!--About Section starts here-->
+	<div id="about">
+		<div class="container">
+			<h1 class="sub-title">About Me</h1>	
+			<div class="row about-row">
+				<div class="about-col-2">
+					<p class="about-doc">I am a junior front-end developer who enjoys learning new things and who is persistent in developing user-experienced websites.<br> </p>
+					<p class="about-doc about-doc-mid"><span>Technology has been my main focus for many years, and this motivated me to pursue my bachelor's degree in Information Technology. Despite that, in the past few years, I have realized the great usage and importance of websites in our daily lives. Thus, I have turned my focus to frontend development, for which I have developed a great passion, and found myself enjoying the process of recalling my programming mindset.</span></p>
+					<p class="about-doc">  &emsp;&ensp; Therefore, I have decided to contribute to this great tech industry by investing my ability to attention to detail and my curiosity in nature into developing great websites that cope with the fast-growing world of technology.</p>	
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>	
+						<p class="tab-links" onclick="opentab('experience')"> Experience</p>
+						<p class="tab-links" onclick="opentab('education')"> Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul >
+							<li class="skill"><span>Programming Languages <br> </span>HTML/ CSS & JavaScript</li>
+							<li class="skill" ><span >Languages<br></span>Arabic, English & Turkish</li>
+						</ul>
+					</div>	
+					<div class="tab-contents" id="experience">
+						<ul >
+							<li class="skill"><span> Mar 2017 - Current <br> </span>Teacher <br> FURQAN GROUP FOR EDUCATION AND IT</li>
+							<li class="skill" ><span >Aug 2019 - Dec 2019<br></span>Information Technology Assistant <br> ALKHALEEJ TRAINING & EDUCATION</li>
+						</ul>
+					</div>	
+					<div class="tab-contents" id="education">
+						<ul >
+							<li class="skill"><span>Feb 2021 - Current <br> </span> Master's in Advanced Technologies.<br> <span class="span-small">Dumlupinar University, Kutahya </span></li>
+							<li class="skill" ><span >Sep 2016 - July 2020<br></span>Bachelor's in Information Technology and Computing.<br> <span class="span-small"> Arab Open University, Jeddah </span> </li>
+						</ul>
+					</div>			
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--About Section ends here-->
+
+	<!--Services Section starts here-->
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-solid fa-code"></i>
+				<h2>Web Development</h2>
+				<p>I develop responsive websites using HTML, CSS and JavaScript </p>
+			</div>
+			<div>
+				<i class="fa-brands fa-app-store-ios"></i>
+				<h2> "APP development" <br> <span> SOON </span></h2>
+				<p> Meteor JS, AngularJS & React Native</p>
+			</div>
+			<!--<button onclick="window.print()">Print this page</button>-->
+		</div>	
+	</div>
+</div>
+	<!--Services Section ends here-->
+
+	<!--Portfolio Section Starts here-->
+<div id="portfolio">
+	<div class="container">
+		<h2 class="sub-title">My Projects</h2>
+		<div class="work-list">	
+			<div class="work">
+				<img src="images/food.png">
+				<div class="layer">
+					<h3>Food World </h2>
+					<p>Restaurant website with category list and special offer section. Build with CSS and JavaScript</p>
+					<a href="https://afrahsaid.github.io/foodWorld/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/todo.png">
+				<div class="layer">
+					<h3>To Do List </h2>
+					<p>Website for your Daily Task Lists. You can edit task, modify tasks, delete the task, and also delete all the tasks at once. Once done with your task you can check the checkbox next to the task and have it crossed out.Build with HTML, CSS JavaScript.</p>
+					<a href="https://afrahsaid.github.io/ToDoList/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square" ></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/clockd.png">
+				<div class="layer">
+					<h3>Digital Clock </h2>
+					<p>24 Hour digital clock with beautiful background and AM/PM time display format. Built with HTML, CSS & JavaScript.</p>
+					<a href="https://afrahsaid.github.io/24HourDigitalClock/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="https://github.com/afrahsaid" target="_blank" class="btn"> See More Projects</a>
+	</div>	
+</div>
+	<!--Portfolio Section ends here-->
+<!--Contact Section Starts here-->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-regular fa-envelope"></i>  afrahdev@gmail.com</p>
+				<p><i class="fa-solid fa-phone"></i> 00905526282356</p>
+				<div class="social-icons">
+					<ul>
+						<li><a href="https://twitter.com/afrahdev" target="_blank"> <i class="fa-brands fa-twitter" ></i> </a></li>
+						<li><a href="https://www.facebook.com/profile.php?id=100090659045023" target="_blank"><i class="fa-brands fa-facebook"></i> </a></li>
+						<li><a href="https://www.instagram.com/afrahdev/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+						<li></li>
+						<li> <a href="https://www.linkedin.com/in/afrah-said" target="_blank" ><i class="fa-brands fa-linkedin-in"></i></a></li>
+						<li><a href="https://github.com/afrahsaid" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+					</ul>
+				</div>
+				<a href="images/cv.pdf " download target="_blank" class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name " required>
+					<input type="email" name="Email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright © afrah. Made with <i class="fa-solid fa-heart"></i> by afrahdev </p>
+	</div>
+</div>
+<!--Contact Section ends here-->
+
+<script>
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents= document.getElementsByClassName("tab-contents");
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+</script>
+<script>
+	var sidemenu= document.getElementById("sidemenu");
+	function closemenu(){
+		sidemenu.style.right = "-200px";
+	}
+	function openmenu(){
+		sidemenu.style.right = "0";
+	}
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzP6MTPXl3gbfLJIlJjHDKZTd6X7XkCs1bp2lBk9mXMUq9azgyBBVfBvkf1KEegH5dXhg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg =document.getElementById("msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML="Message sent successfuly"
+      	setTimeout(function(){
+      		msg.innerHTML=""
+      	},6000) 
+      	form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
+
+
+
+
+
