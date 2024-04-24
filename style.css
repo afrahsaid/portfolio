@@ -9,7 +9,7 @@ html{
 }
 body{ 
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 18%, rgba(0,212,255,1) 88%);
-	box-shadow: 0px -10px 20px  rgb(86, 192, 227) inset, 0px 10px 20px  rgb(86, 192, 227) inset;
+	/* box-shadow: 0px -10px 20px  rgb(86, 192, 227) inset, 0px 10px 20px  rgb(86, 192, 227) inset; */
 	color: white;
 }
 #header{
@@ -17,7 +17,7 @@ body{
 	height: 100vh;
 	position: relative;
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 18%, rgba(0,212,255,1) 88%);
-	box-shadow: 0px -10px 20px  rgb(86, 192, 227) inset, 0px 10px 20px  rgb(86, 192, 227) inset;
+	/* box-shadow: 0px -10px 20px  rgb(86, 192, 227) inset, 0px 10px 20px  rgb(86, 192, 227) inset; */
 
 }
 .home-row{
@@ -42,6 +42,9 @@ body{
     margin-top: 100px;
 }
 .container{
+	padding: 10px 10%;
+}
+.container-portfolio{
 	padding: 10px 10%;
 }
 nav{
@@ -117,8 +120,7 @@ span .color-sub-title{
 	color:#43c4ee ;
 }
 .home-sub-title{
-	margin-top: 15px;
-	margin-left: 20px;
+	margin: 15px 315px 0px 20px;
 	font-size: 19px;
 	font-family: "Futara";
 }
@@ -127,12 +129,13 @@ span .color-sub-title{
 	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 50%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
 	padding: 60px 60px;
 	color: #ababab;
-	box-shadow: 0px -10px 20px  rgb(86, 192, 227) inset, 0px 10px 20px  rgb(86, 192, 227) inset;
+	/* box-shadow: 0px -10px 20px  rgb(86, 192, 227) inset, 0px 10px 20px  rgb(86, 192, 227) inset; */
 }
 #about h1{
-	text-align: center;
-	color: #010101;
-	text-shadow: 1px 1px 2px #43c4ee, 0 0 25px #43c4ee, 0 0 5px #43c4ee;
+	text-align: left;
+	margin-left: 130px;
+	color: white;
+	/* text-shadow: 1px 1px 2px #43c4ee, 0 0 25px #43c4ee, 0 0 5px #43c4ee; */
 
 }
 #about p{
@@ -156,7 +159,7 @@ span .color-sub-title{
 }
 .about-row{
 	margin: 2% 10%;
-	font-size: 25px;
+	font-size: 24px;
 	color: white;
 }
 .about-col-2{
@@ -174,7 +177,7 @@ span .color-sub-title{
 	margin-bottom: 20px;
 }
 .card h3{
-	text-shadow: 1px 1px 2px #43c4ee, 0 0 25px #43c4ee, 0 0 5px #43c4ee;
+	/* text-shadow: 1px 1px 2px #43c4ee, 0 0 25px #43c4ee, 0 0 5px #43c4ee; */
 	margin: 10px 0;
 }
 
@@ -191,7 +194,8 @@ span .color-sub-title{
 .card .skills ul span
 {
 	color: #43c4ee;
-	font-size: 18px;
+	/* color: #61b752; */
+	font-size: 19px;
 
 }
 .card .education ul .span-small,
@@ -201,13 +205,14 @@ span .color-sub-title{
 }
 .card .education ul,
 .card .skills ul  {
-font-size: 20px;
+font-size: 17px;
 }
 .card .education ul li,
 .card .skills ul li{
   list-style-type: none; 
   position: relative;
   padding-left: 15px;
+  padding-bottom: 15px;
 }
 .card .education ul li::before,
 .card .skills ul li::before{ 
@@ -221,11 +226,12 @@ font-size: 20px;
 	margin-top: 7%;
 }
 .publications h3{
-	text-shadow: 1px 1px 2px #43c4ee, 0 0 25px #43c4ee, 0 0 5px #43c4ee;
+	/* text-shadow: 1px 1px 2px #43c4ee, 0 0 25px #43c4ee, 0 0 5px #43c4ee; */
 
-	text-align: center;
+	text-align: left;
 	margin-bottom: 10px;
-	color: #0c0c0c;
+	margin-top: 5px;
+	color: #43c4ee;
 }
 .publications p{
 	margin-bottom: 18px;
@@ -314,7 +320,7 @@ font-size: 20px;
 	margin-top: 4%;
 	margin-bottom: 7%;
 	text-align: center;
-	text-shadow: 1px 1px 1px #43c4ee, 0 0 5px #43c4ee, 0 0 0px #43c4ee;
+	/* text-shadow: 1px 1px 1px #43c4ee, 0 0 5px #43c4ee, 0 0 0px #43c4ee; */
 
 }
 .services-list{
@@ -325,7 +331,7 @@ font-size: 20px;
 }
 .services-list div{
 	background: #03161c;
-	padding: 40px;
+	padding: 40px 25px;
 	font-size: 16px;
 	font-weight: 300;
 	border-radius: 10px;
@@ -361,6 +367,7 @@ font-size: 20px;
 }
 .services-list p{
 	text-align: center;
+	margin-bottom: 50px ;
 }
 /*-- Services section ends here--*/
 
@@ -372,14 +379,13 @@ font-size: 20px;
 	padding: 50px 0;
 }
 #portfolio h2{
-	text-shadow: 1px 1px 1px #43c4ee, 0 0 5px #43c4ee, 0 0 0px #43c4ee;
+	/* text-shadow: 1px 1px 1px #43c4ee, 0 0 5px #43c4ee, 0 0 0px #43c4ee; */
 	text-align: center;
 }
 #portfolio h4{
 	text-shadow: 1px 1px 2px #eef3f4, 0 0 25px #43c4ee, 0 0 5px #43c4ee;
 	text-align: center;
 	font-size: 30px;
-	margin: 20px 0;
 	color: #0c0c0c;
 	text-decoration: underline;
 }
@@ -391,13 +397,15 @@ font-size: 20px;
 }
 .react-portfolio .work-list{
 	display: grid;
-	grid-template-columns: repeat(2,minmax(250px, 1fr));
+	grid-template-columns: repeat(3,minmax(250px, 1fr));
 	grid-gap: 40px;
 	margin-top: 50px;
+	justify-content: center;
+	align-content: center;
 }
 .ux-ui-portfolio .work-list{
 	display: grid;
-	grid-template-columns: repeat(2,minmax(250px, 1fr));
+	grid-template-columns: repeat(3,minmax(250px, 1fr));
 	grid-gap: 40px;
 	margin-top: 50px;
 }
@@ -574,13 +582,17 @@ form .btn2{
 nav .fa-solid{
 	display: none;
 }
-@media only screen and (max-width: 1050px){
+@media only screen and (max-width: 1065px){
 	.img-container i{
 	right: 15%;
 	top: 7%;	
 	}
 	.home-row .home-sub-title {
 		font-size: 27px;
+		margin: 15px 25px 0px 20px
+	}
+	.services-list div{
+		padding: 40px 10px;
 	}
 }
 @media only screen and (max-width: 820px){
@@ -601,6 +613,10 @@ nav .fa-solid{
 	}
 	nav {
 		padding: 10px 50px 10px 10px;
+	}
+	.logo{
+		width: 80px;
+		height: 60px;
 	}
 	 nav ul li a.header::after{
 	content: '';
@@ -676,7 +692,10 @@ nav .fa-solid{
 		list-style-type: none;
 		position: relative;
 		padding-left: 1px;
+
+
 	}
+	
 	.js-portfolio .work-list,
 	.react-portfolio .work-list,
 	.ux-ui-portfolio .work-list {
@@ -689,7 +708,7 @@ nav .fa-solid{
 	}
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 650px){
 	.header-text{
 		margin-top: 55%;
 		margin-bottom: 40%;
@@ -697,8 +716,22 @@ nav .fa-solid{
 		font-size: 28px;
 	}
 	nav {
-		padding: 10px 50px 10px 10px;
+		padding: 5px 50px 1px 10px;
 
+	}
+	.logo{
+		width: 70px;
+		height: 60px;
+	}
+	.home-row {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 50px 20px 100px 30px;
+	}
+	.home-sub-title {
+		margin:25px 25px 0px 20px ;
 	}
 	 nav ul li a.header::after{
 	content: '';
@@ -767,7 +800,7 @@ nav .fa-solid{
 	}
 	.about-row {
 		margin: 2% 4%;
-		font-size: 25px;
+		font-size: 20px;
 		color: white;
 	}
 	.card {
@@ -777,7 +810,7 @@ nav .fa-solid{
 	}
 	.card .education {
 		width: 100%;
-		padding: 0%;
+		padding: 1%;
 	}
 	.card .skills {
 		width: 100%;
@@ -788,6 +821,9 @@ nav .fa-solid{
 		list-style-type: none;
 		position: relative;
 		padding-left: 1px;
+	}
+	.services-list div {
+		padding: 40px 53px;
 	}
 	.js-portfolio .work-list,
 	.react-portfolio .work-list,
