@@ -44,9 +44,6 @@ body{
 .container{
 	padding: 10px 10%;
 }
-.container-portfolio{
-	padding: 10px 10%;
-}
 nav{
 	background: linear-gradient(90deg, rgba(2,0,36,1) 15%, rgba(2,0,36,1) 15%, rgba(2,0,36,1) 50%, rgba(2,0,36,1) 89%, rgb(5, 5, 5) 100%);
 	padding: 2px;
@@ -375,8 +372,8 @@ font-size: 17px;
 #portfolio .js-portfolio{
 	padding: 50px 0;
 }
-#portfolio .react-portfolio{
-	padding: 50px 0;
+#portfolio .container-portfolio{
+	padding: 50px 10%;
 }
 #portfolio h2{
 	/* text-shadow: 1px 1px 1px #43c4ee, 0 0 5px #43c4ee, 0 0 0px #43c4ee; */
@@ -395,7 +392,7 @@ font-size: 17px;
 	grid-gap: 40px;
 	margin-top: 50px;
 }
-.react-portfolio .work-list{
+.container-portfolio .work-list{
 	display: grid;
 	grid-template-columns: repeat(3,minmax(250px, 1fr));
 	grid-gap: 40px;
@@ -410,7 +407,7 @@ font-size: 17px;
 	margin-top: 50px;
 }
 .js-portfolio .work,
-.react-portfolio  .work,
+.container-portfolio  .work,
 .ux-ui-portfolio .work{
 	border-radius: 10px;
 	position: relative;
@@ -418,7 +415,7 @@ font-size: 17px;
 
 }
 .js-portfolio .work img,
-.react-portfolio  .work img,
+.container-portfolio  .work img,
 .ux-ui-portfolio  .work img{
 	width: 100%; 
 	border-radius: 10px;
@@ -426,13 +423,13 @@ font-size: 17px;
 	transition: 0.5s;
 }
 .js-portfolio.work p,
-.react-portfolio.work p,
+.container-portfolio.work p,
 .ux-ui-portfolio.work p{
 	text-align: justify;
 	text-align-last: center;
 }
 .js-portfolio .layer,
-.react-portfolio .layer,
+.container-portfolio .layer,
 .ux-ui-portfolio .layer{
 	width: 100%;
 	height: 0%;
@@ -452,13 +449,13 @@ font-size: 17px;
 	transition: 0.5s;
 }
 .js-portfolio .layer h3,
-.react-portfolio .layer h3,
+.container-portfolio .layer h3,
 .ux-ui-portfolio .layer h3 {
 	font-weight: 500;
 	margin-bottom: 20px;
 }
 .js-portfolio .layer a,
-.react-portfolio .layer a,
+.container-portfolio .layer a,
 .ux-ui-portfolio .layer a{
 	margin-top: 20px;
 	font-size: 18px;
@@ -472,13 +469,13 @@ font-size: 17px;
 	text-align: center;
 }
 .js-portfolio .work:hover img,
-.react-portfolio .work:hover img,
+.container-portfolio .work:hover img,
 .ux-ui-portfolio .work:hover img{
 	transform: scale(1.1);
 
 }
 .js-portfolio .work:hover .layer,
-.react-portfolio .work:hover .layer,
+.container-portfolio .work:hover .layer,
 .ux-ui-portfolio .work:hover .layer{
 	height: 100%;
 }
@@ -697,7 +694,7 @@ nav .fa-solid{
 	}
 	
 	.js-portfolio .work-list,
-	.react-portfolio .work-list,
+	.container-portfolio .work-list,
 	.ux-ui-portfolio .work-list {
 		display: grid;
 		grid-template-columns: repeat(2,minmax(250px, 1fr));
@@ -826,7 +823,7 @@ nav .fa-solid{
 		padding: 40px 53px;
 	}
 	.js-portfolio .work-list,
-	.react-portfolio .work-list,
+	.container-portfolio .work-list,
 	.ux-ui-portfolio .work-list {
 		display: grid;
 		grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
