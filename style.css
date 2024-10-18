@@ -99,7 +99,7 @@ nav ul li a:hover::after{
 	font-size: 30px;
 }
 .color-sub-title{
-	text-shadow: 1px 1px 1px #00090b, 0 0 2px #000102, 0 0 20px #29abcb;
+	/* text-shadow: 1px 1px 1px #00090b, 0 0 2px #000102, 0 0 20px #29abcb; */
 
 }
 .header-text h1{
