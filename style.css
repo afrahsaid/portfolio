@@ -182,7 +182,7 @@ span .color-sub-title{
     fill: var(--blue);
 }
 
-/* Above */
+/* services Above */
 .custom-shape-divider-top-1737350521 {
     position: absolute;
     top: 0;
@@ -198,8 +198,27 @@ span .color-sub-title{
     width: calc(177% + 1.3px);
     height: 47px;
 }
-
 .custom-shape-divider-top-1737350521 .shape-fill {
+    fill: var(--blue);
+}
+/* For about above */
+.custom-shape-divider-top-17373505211 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-17373505211 svg {
+    position: relative;
+    display: block;
+    width: calc(177% + 1.3px);
+    height: 47px;
+}
+
+.custom-shape-divider-top-17373505211 .shape-fill {
     fill: var(--blue);
 }
 #about h1{
@@ -803,6 +822,26 @@ nav .fa-solid{
 }
 
 @media only screen and (max-width: 650px){
+		/* For about above */
+	.custom-shape-divider-top-17373505211 {
+		position: none;
+		top: 0;
+		left: 0;
+		width: 100%;
+		overflow: hidden;
+		line-height: 0;
+	}
+
+	.custom-shape-divider-top-17373505211 svg {
+		position: none;
+		display: block;
+		width: calc(177% + 1.3px);
+		height: 47px;
+	}
+
+	.custom-shape-divider-top-17373505211 .shape-fill {
+		fill: none;
+	}
 	.header-text{
 		margin-top: 55%;
 		margin-bottom: 40%;
